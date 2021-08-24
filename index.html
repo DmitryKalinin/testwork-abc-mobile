@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дата смерти</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/main.js"></script>
+</head>
+
+<body class="page">
+    <header class="header">
+
+        <div class="container">
+            <span class="remark">Лучшие астрологи и экстрасенсы Румынии</span>
+            <div class="header__br-line"></div>
+            <span class="header__accuracy">Точность прогноза: 97%</span>
+            <div class="header__image">
+                <img src="./src/header-back-layer.webp" alt="back" class="header__image-back">
+                <img src="./src/woman1.webp" alt="back" class="header__image-front">
+            </div>
+            <div class="question">
+                <span class="question__text">Вас беспокоит вопрос о том, <br> 
+                    <span class="question__text_uppercase"> когда Вы покинете этот Мир и при<br> каких обстоятельствах?</span>
+                </span>
+                <a href="#test" class="btn "><span class="btn__gradient_left-left"></span>Да</a>
+                <a href="#test" class="btn "><span class="btn__gradient_right-right"></span>Нет</a>
+                <span class="remark">Онлайн предсказание</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="secret-block">
+        <div class="container">
+            <div class="secret">
+                <img class="secret__image" src="./src/hands.webp" alt="hands">
+                <p class="secret__text">
+                    Позвольте нам раскрыть эту волнующую тайну и <br>
+                    <span class="secret__text_orange">с точностью определить дату и время вашей смерти,</span> а также предшествующую этому событию причину
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="prediction">
+        <div class="container">
+
+            <div class="prediction__content">
+                <div class="prediction__text">
+                    <p class="secret__text">
+                        Многие не верят предсказаниям и мы решили доказать каждому,
+                        <br>
+                        <span class="secret__text_orange"> что прогноз может изменить жизнь любого человека!</span>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="test" class="test">
+        <img class="test__bg-image eye" src="./src/eye.svg" alt="bg">
+        <img class="test__bg-image moon" src="./src/moon.svg" alt="bg">
+        <div class="container">
+            <div class="question _q1">
+                <span class="question__text question__text_uppercase"> Боитесь ли вы умереть?</span>
+                <button class="btn _btn1"><span class="btn__gradient_left-left"></span>Да</button>
+                <button class="btn _btn1"><span class="btn__gradient_right-right"></span>Нет</button>
+                <span class="remark question-remark">Вопрос 1-5</span>
+
+                <img class="rune" src="./src/rune1.svg" alt="rune">
+                <p class="cursive__text">
+                    Вы, конечно, умрете. <br> И все, с кем вы знакомы, <br> тоже однажды умрут.
+                </p>
+                <img class="rune" src="./src/rune1.svg" alt="rune">
+            </div>
+            <div class="question _q2 display-none">
+                <p class="cursive__text cursive__text_opacity">
+                    Мы расскажем Вам не только подробности вашей смерти, но также поможем Вам избежать этой ужасной даты и продлить вашу жизнь на многие годы.
+                </p>
+                <div class="header__br-line"></div>
+                <span class="question__text question__text_uppercase"> Когда Вы чувствуете себя наиболее комфортно?</span>
+                <button class="btn _btn2"><span class="btn__gradient_left-left"></span>Утро</button>
+                <button class="btn _btn2"><span class="btn__gradient_left-center"></span>День</button>
+                <button class="btn _btn2"><span class="btn__gradient_right-center"></span>Вечер</button>
+                <button class="btn _btn2"><span class="btn__gradient_right-right"></span>Ночь</button>
+                <span class="remark question-remark">Вопрос 2-5</span>
+            </div>
+            <div class="question _q3 display-none">
+                <p class="cursive__text cursive__text_opacity">
+                    Уже совсем скоро Вы узнаете много интересного о своем будущем!
+                </p>
+                <div class="header__br-line"></div>
+                <span class="question__text question__text_uppercase"> Укажите свою дату рождения:</span>
+                <div class="input-block">
+                    <button class="btn input-btn _day">День <img src="./src/arrow.svg" alt="arrow" class="arrow"></button>
+                </div>
+                <div class="input-block">
+                    <button class="btn input-btn _month">Месяц<img src="./src/arrow.svg" alt="arrow" class="arrow"></button>
+                </div>
+                <div class="input-block">
+                    <button class="btn input-btn _year">Год<img src="./src/arrow.svg" alt="arrow" class="arrow"></button>
+                </div>
+
+                <button class="btn _btn3"><span class="btn__gradient_right-right"></span>Далее</button>
+                <span class="remark question-remark">Вопрос 3-5</span>
+            </div>
+            <div class="question _q4 display-none">
+
+                <img src="./src/progress.svg" alt="progress" class="progress">
+                <span class="remark">Loading</span>
+
+            </div>
+            <div class="question _q5 display-none">
+                <p class="cursive__text cursive__text_opacity">
+                    Смерть родного человека – одно из тяжелейших испытаний в жизни каждого из нас!
+                </p>
+                <div class="header__br-line"></div>
+                <span class="question__text question__text_uppercase"> Снятся ли Вам умершие люди?</span>
+                <button class="btn _btn4"><span class="btn__gradient_left-left"></span>Да</button>
+                <button class="btn _btn4"><span class="btn__gradient_left-center"></span>Нет</button>
+                <button class="btn _btn4"><span class="btn__gradient_right-center"></span>Иногда</button>
+                <span class="remark question-remark">Вопрос 4-5</span>
+            </div>
+            <div class="question _q6 display-none">
+                <div class="comment">
+                    <p class="comment__text comment__value">
+                        По вам скучает очень близкий человек, которого больше нет в мире живых.
+
+                    </p>
+                </div>
+
+                <div class="header__br-line"></div>
+                <span class="question__text question__text_uppercase"> Запись, которую Вы услышите,<br> может шокировать людей с <br>неокрепшей психикой. Вы готовы<br> узнать, что ждет именно Вас?</span>
+                <button class="btn _btn5"><span class="btn__gradient_left-left"></span>Да</button>
+                <button class="btn _btn5"><span class="btn__gradient_right-center"></span>Затрудняюсь ответить</button>
+                <span class="remark question-remark">Вопрос 5-5</span>
+            </div>
+            <div class="question _q7 display-none">
+                <div class="recording">
+                    <img src="./src/microphone.svg" alt="microphone" class="recording__micro">
+                    <div class="progress-bar ">
+                        <div class="progress-bar-fill"></div>
+                    </div>
+                    <span class="progress-bar-value">0%</span>
+                </div>
+                <span class="remark">Запись сообщения</span>
+            </div>
+            <div class="question _q8 display-none">
+                <div class="comment">
+                    <p class="comment__normal">
+                        Спасибо за Ваши ответы!
+                    </p>
+                    <p class="comment_bold">Мы подготовили для Вас<br> персональную аудио запись с<br> Вашим прогнозом.</p>
+                </div>
+                <p class="tip">Вы можете узнать, как повлиять<br> на события, которые ожидают<br> вас в ближайшем будущем.</p>
+                <div class="tip-block">
+                    <span class="question__text question__text_uppercase"> Первое значимое<br> событие может<br> произойти уже 14.02.2021,</span>
+                    <span class="question__text "> Вам надо быть готовым, что бы последствия не оказались необратимыми.</span>
+                </div>
+                <p class="tip">Нажмите на кнопку ниже прямо<br> сейчас и наберите наш номер<br> телефона. Прослушайте важную <br>информацию!</p>
+
+                <button class="btn btn-call"><span class="btn__gradient_left-left"></span>Позвонить и прослушать</button>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+
+        <p class="footer__text footer__text_overflow">
+            TERMENI SI CONDITII: ACESTA ESTE UN SERVICIU <br> DE DIVERTISMENT. PRIN FOLOSIREA LUI <br> DECLARATI CA AVETI 18 ANI IMPLINITI,
+        </p>
+
+    </footer>
+</body>
+
+</html>
