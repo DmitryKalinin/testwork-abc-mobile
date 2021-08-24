@@ -243,6 +243,7 @@
     align-items: center;
     min-height: 750px;
     padding-top: 100px;
+    overflow: hidden;
 }
 
 .cursive__text {
@@ -471,7 +472,6 @@
     font-size: 7px;
     line-height: 9px;
     letter-spacing: 3px;
-    display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
@@ -503,8 +503,6 @@
     width: 150px;
     text-transform: uppercase;
 }
-
-.data-element__value {}
 
 @media screen and (max-width: 1440px) {
     .container {
